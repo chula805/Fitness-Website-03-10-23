@@ -27,7 +27,7 @@ Welcome to the Fitness Website! This responsive website is your ultimate destina
 
 🌐 Live Demo
 
-Embark on a fitness adventure with our live demo -
+Embark on a fitness adventure with our live demo - https://chula805.github.io/Fitness-Website-03-10-23/
 
 📬 Feedback
 
