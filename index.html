@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <title>Chulani Vimukthi | GFitness</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <div class="nav__header">
+          <div class="nav__logo">
+            <a href="#"><img src="assets/logo.png" alt="logo" />GFitness</a>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <span><i class="ri-menu-line"></i></span>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li class="link"><a href="#home">Home</a></li>
+          <li class="link"><a href="#about">About</a></li>
+          <li class="link"><a href="#class">Classes</a></li>
+          <li class="link"><a href="#trainers">Trainers</a></li>
+          <li class="link"><a href="#price">Pricing</a></li>
+          <li class="link"><a href="#contact">Contact</a></li>
+          <li class="link"><button class="btn-header">Join Now</button></li>
+        </ul>
+      </nav>
+      <div class="section__container header__container" id="home">
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+        <div class="header__content">
+          <h4>Build & Shape</h4>
+          <h1 class="section__header">Your Body!</h1>
+          <p>
+            We believe that through hard work, dedication, and a commitment to pushing your limits, you can achieve the strength, fitness, and confidence you desire. Join us on this journey to transform your physique and elevate your life. Let's build a healthier, stronger, and more confident you, one workout at a time!
+          </p>
+          <div class="header__btn">
+            <button class="btn">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img class="about__bg" src="assets/about-circle-one.png" alt="bg" />
+        <img src="assets/about.png" alt="about" />
+      </div>
+      <div class="about__content">
+        <h2 class="section__header">ABOUT US</h2>
+        <p class="section__description">
+          GFitness is a premier fitness center dedicated to helping individuals achieve their health and fitness goals. With modern equipment, expert trainers, and diverse classes, we provide a holistic approach to fitness. Our supportive community and flexible membership options make it easy for anyone to prioritize their well-being. 
+        </p>
+       
+        <div class="feature__grid">
+          <div class="feature__card">
+            <div class="feature__icon">
+              <i class="ri-heart-2-line"></i>
+            </div>
+            <div class="feature__content">
+              <h4>Diverse Fitness Equipment</h4>
+            </div>
+          </div>
+          <div class="feature__card">
+            <div class="feature__icon">
+              <i class="ri-time-line"></i>
+            </div>
+            <div class="feature__content">
+              <h4>Qualified Personal Trainers</h4>
+            </div>
+          </div>
+          <div class="feature__card">
+            <div class="feature__icon">
+              <i class="ri-user-6-line"></i>
+            </div>
+            <div class="feature__content">
+              <h4>Group Fitness Classes</h4>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__btn">
+          <button class="btn">Get Started</button>
+        </div>
+                
+      </div>
+    </section>
+
+    <section class="section__container class__container" id="class">
+      <h2 class="section__header">Our Classes</h2>
+      <div class="class__grid">
+        <div class="class__card">
+          <img src="assets/class-1.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Cardio Kickboxing</h4>
+            <p><i class="fa-regular fa-calendar"></i>Mon - Sun</p>
+            <p><i class="fa fa-clock"></i>09:00 AM - 11:30 AM</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/class-2.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Spinning</h4>
+            <p><i class="fa-regular fa-calendar"></i>Mon - Sun</p>
+            <p><i class="fa fa-clock"></i>11:30 AM - 01:30 PM</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/class-3.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Pilates Mat</h4>
+            <p><i class="fa-regular fa-calendar"></i>Mon - Sun</p>
+            <p><i class="fa fa-clock"></i>01:30 PM - 03:30 PM</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/class-4.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Aerobics</h4>
+            <p><i class="fa-regular fa-calendar"></i>Mon - Sun</p>
+            <p><i class="fa fa-clock"></i>03:30 PM - 05:30 PM</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/class-5.jpg" alt="class" />
+          <div class="class__content">
+            <h4>CrossFit</h4>
+            <p><i class="fa-regular fa-calendar"></i>Mon - Sun</p>
+            <p><i class="fa fa-clock"></i>05:30 PM - 07:30 PM</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/class-6.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Aquatic Fitness</h4>
+            <p><i class="fa-regular fa-calendar"></i>Mon - Sun</p>
+            <p><i class="fa fa-clock"></i>07:30 PM - 09:30 PM</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/class-7.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Bodyweight Training</h4>
+            <p><i class="fa-regular fa-calendar"></i>Mon - Sun</p>
+            <p><i class="fa fa-clock"></i>09:30 PM - 11:30 PM</p>
+          </div>
+        </div>
+        <div class="class__card">
+          <img src="assets/class-8.jpg" alt="class" />
+          <div class="class__content">
+            <h4>Circuit Training</h4>
+            <p><i class="fa-regular fa-calendar"></i>Mon - Sun</p>
+            <p><i class="fa fa-clock"></i>11:30 PM - 01:30 PM</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container trainer__container" id="trainers">
+      <h2 class="section__header">Our Trainers</h2>
+      <div class="trainer__grid">
+        <div class="trainer__card">
+          <img src="assets/trainer-1.jpg" alt="Trainer 1" />
+          <div class="trainer__content">
+            <h4>John Doe</h4>
+            <div class="social-icons">
+              <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="trainer__card" id="cards">
+          <img src="assets/trainer-2.jpg" alt="Trainer 2" />
+          <div class="trainer__content">
+            <h4>Jane S</h4>
+            <div class="social-icons">
+              <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="trainer__card">
+          <img src="assets/trainer-3.jpg" alt="Trainer 3" />
+          <div class="trainer__content">
+            <h4>Lisa John</h4>
+            <div class="social-icons">
+              <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="trainer__card" id="cards">
+          <img src="assets/trainer-4.jpg" alt="Trainer 4" />
+          <div class="trainer__content">
+            <h4>Mike And</h4>
+            <div class="social-icons">
+              <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="trainer__card">
+          <img src="assets/trainer-5.jpg" alt="Trainer 3" />
+          <div class="trainer__content">
+            <h4>Lisa John</h4>
+            <div class="social-icons">
+              <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="trainer__card" id="cards">
+          <img src="assets/trainer-6.jpg" alt="Trainer 4" />
+          <div class="trainer__content">
+            <h4>Mike And</h4>
+            <div class="social-icons">
+              <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="section__container price__container" id="price">
+      <h2 class="section__header">Our Pricing</h2>
+      <p class="section__description">
+        Our pricing plan comes with various membership tiers, each tailored to
+        cater to different preferences and fitness aspirations.
+      </p>
+      <div class="price__grid">
+        <div class="price__card">
+          <div class="price__content">
+            <h4>Basic Plan</h4>
+            <img src="assets/price-1.png" alt="price" />
+            <p>
+              Our Basic Plan is the perfect starting point for individuals
+              looking to kickstart their fitness journey or maintain an active
+              lifestyle.
+            </p>
+            <hr />
+            <h3>Key Features</h3>
+            <p>Smart workout plan</p>
+            <p>At home workouts</p>
+          </div>
+          <center><button class="btn">Join Now</button></center>
+        </div>
+        <div class="price__card" style="background-color: #CDD3E3; box-shadow: 10px 10px 10px 10px rgb(0, 0, 0 / 10%);">
+          <div class="price__content">
+            <h4>Premium Plan</h4>
+            <img src="assets/price-2.png" alt="price" />
+            <p>
+              Our weekly plan is designed to provide structure and variety to
+              your workouts, ensuring you stay motivated and on track.
+            </p>
+            <hr />
+            <h3>Key Features</h3>
+            <p>PRO Gyms</p>
+            <p>Smart workout plan</p>
+            <p>At home workouts</p>
+          </div>
+          <center><button class="btn">Join Now</button></center>
+        </div>
+        <div class="price__card">
+          <div class="price__content">
+            <h4>Ultimate Plan</h4>
+            <img src="assets/price-3.png" alt="price" />
+            <p>
+              With this flexible membership, you'll have access to our
+              state-of-the-art gym facilities, expert trainers, and a vibrant
+              fitness community
+            </p>
+            <hr />
+            <h3>Key Features</h3>
+            <p>ELITE Gyms & Classes</p>
+            <p>PRO Gyms</p>
+            <p>Smart workout plan</p>
+            <p>At home workouts</p>
+            <p>Personal Training</p>
+          </div>
+          <center><button class="btn">Join Now</button></center>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container contact__container" id="contact">
+      <h2 class="section__header">Contact Us</h2>
+      <p class="section__description">
+        If you have any questions or feedback, please feel free to contact us using the form below.
+      </p>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </section>
+    
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#"><img src="assets/logo.png" alt="logo" />GSFitness</a>
+          </div>
+          <p>
+            Let's sweat, achieve your fitness goals, and conquer new heights together. Join us today and embark on an exciting path to a better you!
+          </p>
+          <div class="footer__socials">
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-twitter-fill"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <div class="footer__links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#class">Classes</a>
+            <a href="#trainers">Trainers</a>
+            <a href="#price">Pricing</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>About Us</h4>
+          <div class="footer__links">
+            <a href="#">Blogs</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms & Conditions</a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <div class="footer__links">
+            <a href="#" class="contact-social"><i class="fa-solid fa-phone"></i>0112 234 123</a>
+            <a href="#" class="contact-social"><i class="fa-solid fa-location-dot"></i>No:41/A Kandy Road,<br>Colombo</a>
+            <a href="#" class="contact-social"><i class="fa-solid fa-envelope"></i>gsfitness@gmail.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2023. All rights reserved. Design By Chulani Vimukthi
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
